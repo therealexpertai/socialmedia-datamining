@@ -12,7 +12,7 @@ AIM OF THE PROJECT
 
 This NLU project processes French tweets, extracting information about their content and their peculiar language. Indeed, on social media speakers make frequent use of slang expressions, which French is particularly rich in. 
 
-We downloaded a dataset from Kaggle (https://www.kaggle.com/cibeah/french-tweets-politique) containing about 7000 French tweets focused on politics, particularly on the 2018 Russian elections and the political situation in France. This model is a perfect fit for datasets pertaining to this field but can be easily adapted to analyze tweets relating to different domains. 
+We downloaded a dataset from [Kaggle](https://www.kaggle.com/cibeah/french-tweets-politique) containing about 7000 French tweets focused on politics, particularly on the 2018 Russian elections and the political situation in France. This model is a perfect fit for datasets pertaining to this field but can be easily adapted to analyze tweets relating to different domains. 
 
 In this project, you will find French tweets to try out our model and get a more immediate understanding of how it works and what it extracts. 
 
@@ -88,7 +88,7 @@ PATTERN: an attribute based on the insertion of regular expressions into rules. 
 
 ROLE: through this attribute you can leverage Studio’s sentence structure analysis to extract full strings of text (e.g., informal expressions that pertained to the clause level). This allowed us, for example, to extract the subject of a clause, regardless of its form (a single pronoun, a noun phrase, a human proper name, etc.) with its verb. 
 
-These are the main attributes we used, they can be combined together using Boolean or positional operators creating infinite combinations. But this is just a partial introduction to what can be done with expert.ai Studio. You can find more information at the following link: https://docs.expert.ai/studio/latest 
+These are the main attributes we used, they can be combined together using Boolean or positional operators creating infinite combinations. But this is just a partial introduction to what can be done with expert.ai Studio. You can find more information [here](https://docs.expert.ai/studio/latest).
 
 ------------------------------------ 
 
@@ -113,44 +113,44 @@ Creating the extraction rules:
 ```
 TEMPLATE(EXTRACTION NAME)
 {
-  @FIELD
+	@FIELD
 } 
 ```
 
 - In the rules file, for each rule, specify: 
 
-1)	the SCOPE - the portion of text in which a single rule has to be verified (standard options: PARAGRAPH, SENTENCE, CLAUSE, PHRASE). 
+1)	The SCOPE - the portion of text in which a single rule has to be verified (standard options: PARAGRAPH, SENTENCE, CLAUSE, PHRASE). 
 
-2)	the FIELD - one of the extraction classes previously defined in the config.cr file. 
+2)	The FIELD - one of the extraction classes previously defined in the config.cr file. 
 
-3)	the LINGUISTIC CONDITION - the attribute or the combination of attributes you want to use to extract a given item. 
+3)	The LINGUISTIC CONDITION - the attribute or the combination of attributes you want to use to extract a given item. 
 
 ```
-  SCOPE SENTENCE 
+SCOPE SENTENCE 
+{ 
+	IDENTIFY(EXTRACTION NAME) 
 	{ 
-		  IDENTIFY(EXTRACTION NAME) 
-		  { 
-			  @FIELD[linguistic condition] 
-		  } 
+		@FIELD[linguistic condition] 
 	} 
+} 
 ```
 
 - Here’s an example of a template and a relative rule: 
 
 ```
-	TEMPLATE(USERS) 
-	{ 
-		  @USER 
-	} 
+TEMPLATE(USERS) 
+{ 
+	@USER 
+} 
 ```
 ```
-	SCOPE SENTENCE 
+SCOPE SENTENCE 
+{ 
+	IDENTIFY(USERS) 
 	{ 
-		  IDENTIFY(USERS) 
-		  { 
-			  @USER[SYNCON(275322) + SYNCON(UNKNOWN)]//@SYN: #275322# [twitter account] 
-		  } 
+		@USER[SYNCON(275322) + SYNCON(UNKNOWN)]//@SYN: #275322# [twitter account] 
 	} 
+} 
 ```
 - Once you have created the rule, remember to compile by pressing F6 or clicking on the Build button in the upper right corner. 
 
@@ -321,31 +321,31 @@ HOW TO RUN THE PROJECT
 TUTORIAL 
 
 
-- download this package and unzip it on your local drive 
+-	Download this package and unzip it on your local drive 
 
  
 
-- head over to https://developer.expert.ai/ and register to the portal 
+-	Head over to the [Developer Portal](https://developer.expert.ai/) and register 
 
  
 
-- log in to your developer.expert.ai profile and click on the Developer menu (left side of the dashboard) 
+-	Log in to your developer.expert.ai profile and click on the Developer menu (left side of the dashboard) 
 
  
 
--	click on Studio and download the setup (Windows or Linux!!) or click on Download plugin for IntelliJ IDEA if you already have it 
+-	Click on Studio and download the setup (Windows or Linux!!) or click on Download plugin for IntelliJ IDEA if you already have it 
 
  
 
--	install the IDE (it's just a simple wizard) 
+-	Install the IDE (it's just a simple wizard) 
 
  
 
--	launch Studio and open this package folder from your local drive 
+-	Launch Studio and open this package folder from your local drive 
 
  
 
--	try it out, customize it and leave us feedback! ;) 
+-	Try it out, customize it and leave us feedback! ;) 
 
  
 
