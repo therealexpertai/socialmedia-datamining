@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7209cc4b-9f37-4c32-b1f2-362d90f60933" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../SocialDataMining\exportToHTML" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GotoFileConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="Directory" />
+      <filtered-out-file-type name="AspectJ" />
+      <filtered-out-file-type name="AUTO_DETECTED" />
+      <filtered-out-file-type name="C#" />
+      <filtered-out-file-type name="C++" />
+      <filtered-out-file-type name="CSS" />
+      <filtered-out-file-type name="D Language File" />
+      <filtered-out-file-type name="Dictionary" />
+      <filtered-out-file-type name="DTD" />
+      <filtered-out-file-type name="EditorConfig" />
+      <filtered-out-file-type name="Enforced Plain Text" />
+      <filtered-out-file-type name="Erlang" />
+      <filtered-out-file-type name="GitExclude file" />
+      <filtered-out-file-type name="GitIgnore file" />
+      <filtered-out-file-type name="Haskell" />
+      <filtered-out-file-type name="HTML" />
+      <filtered-out-file-type name="IDEA_MODULE" />
+      <filtered-out-file-type name="IDEA_PROJECT" />
+      <filtered-out-file-type name="IDEA_WORKSPACE" />
+      <filtered-out-file-type name="IDL" />
+      <filtered-out-file-type name="IgnoreLang file" />
+      <filtered-out-file-type name="JAVA" />
+      <filtered-out-file-type name="JavaFX" />
+      <filtered-out-file-type name="JavaScript" />
+      <filtered-out-file-type name="JQL" />
+      <filtered-out-file-type name="JSHELL" />
+      <filtered-out-file-type name="JSON" />
+      <filtered-out-file-type name="JSON-lines" />
+      <filtered-out-file-type name="JSON5" />
+      <filtered-out-file-type name="JSP" />
+      <filtered-out-file-type name="Kotlin" />
+      <filtered-out-file-type name="Kotlin/Native Def" />
+      <filtered-out-file-type name="Manifest" />
+      <filtered-out-file-type name="PATCH" />
+      <filtered-out-file-type name="Perl" />
+      <filtered-out-file-type name="PHP" />
+      <filtered-out-file-type name="Properties" />
+      <filtered-out-file-type name="RegExp" />
+      <filtered-out-file-type name="RNG Compact" />
+      <filtered-out-file-type name="Script File" />
+      <filtered-out-file-type name="SPI" />
+      <filtered-out-file-type name="SQL" />
+      <filtered-out-file-type name="Studio Annotation" />
+      <filtered-out-file-type name="Studio file" />
+      <filtered-out-file-type name="Studio List" />
+      <filtered-out-file-type name="Symbolic File" />
+      <filtered-out-file-type name="XHTML" />
+      <filtered-out-file-type name="XML" />
+      <filtered-out-file-type name="YAML" />
+      <filtered-out-file-type name="ARCHIVE" />
+      <filtered-out-file-type name="CLASS" />
+      <filtered-out-file-type name="KJSM" />
+      <filtered-out-file-type name="KNM" />
+      <filtered-out-file-type name="kotlin_builtins" />
+      <filtered-out-file-type name="kotlin_module" />
+      <filtered-out-file-type name="Native" />
+      <filtered-out-file-type name="ResourceBundle" />
+      <filtered-out-file-type name="script-definition-marker" />
+      <filtered-out-file-type name="UNKNOWN" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1zmDvnu9l6NZpPGyoopZMOTtGh6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7209cc4b-9f37-4c32-b1f2-362d90f60933" name="Default Changelist" comment="" />
+      <created>1634744607862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634744607862</updated>
+    </task>
+    <servers />
+  </component>
+</project>
