@@ -1,6 +1,6 @@
-# Social-Data-Mining 
+# Social-Media-Data-Mining 
 
-A Social Data Mining Project for French
+A Social Media Data Mining Project for French
 
 Find the full article at: [soon to come]
 
