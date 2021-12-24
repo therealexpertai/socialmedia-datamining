@@ -2,7 +2,7 @@
 
 A Social Media Data Mining Project for French
 
-Find the full article at: [soon to come]
+You can find the English article here[https://medium.com/@ronchisilvia1/do-you-speak-argot-capturing-slang-on-twitter-with-expert-ai-76f93c15ea65] and the French version here[https://medium.com/@cate.zapparoli/parles-tu-c%C3%A9fran-df678156f510].
 
 ------------------------------------ 
 
